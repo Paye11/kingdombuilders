@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+  /* Brand palette */
+  --color-royal: #1e3a8a;
+  --color-royal-light: #2747a8;
+  --color-royal-dark: #15296b;
+  --color-gold: #f4795b;
+  --color-gold-dark: #de5a3c;
+  --color-green: #1f9d55;
+  --color-green-dark: #167a41;
+
+  --color-background: #ffffff;
+  --color-foreground: #1a2332;
+  --color-muted: #f5f7fb;
+  --color-muted-foreground: #5b6678;
+  --color-border: #e4e9f2;
+  --color-cream: #fbf8f0;
+  --color-card: #ffffff;
+  --color-card-foreground: #1a2332;
+
+  /* Semantic aliases */
+  --color-primary: #1e3a8a;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f4795b;
+  --color-secondary-foreground: #ffffff;
+
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+  }
+
+  ::selection {
+    background-color: var(--color-gold);
+    color: var(--color-royal-dark);
+  }
+}
+
+/* Blinking text effect — fast, sharp on/off flash */
+@keyframes text-blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-text-blink {
+  animation: text-blink 0.7s steps(1, end) infinite;
+}
+
+/* Blinking glow accent for highlighted words */
+@keyframes text-blink-glow {
+  0%,
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 12px rgba(244, 121, 91, 0.55);
+  }
+  50% {
+    opacity: 0.45;
+    text-shadow: 0 0 0 rgba(244, 121, 91, 0);
+  }
+}
+
+.animate-text-blink-glow {
+  animation: text-blink-glow 1.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-text-blink,
+  .animate-text-blink-glow {
+    animation: none;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-muted);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-royal);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-royal-dark);
+}
