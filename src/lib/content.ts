@@ -350,6 +350,18 @@ export const teamMembers: TeamMember[] = [
     image: "/images/Director of children care.jpeg",
   },
   {
+    name: "Rev. Ramsey Pay Willie",
+    title: {
+      en: "Programs and Community Outreach Director",
+      fr: "Directeur des Programmes et de la Sensibilisation Communautaire",
+    },
+    bio: {
+      en: "Coordinates children's programs, community outreach, volunteers, and partnerships.",
+      fr: "Coordonne les programmes pour enfants, la sensibilisation communautaire, les bénévoles et les partenariats.",
+    },
+    image: "/images/Ramsey Willie.jpeg",
+  },
+  {
     name: "Gaston Zoyagué Koiba",
     title: { en: "Finance and Administration Officer (Treasurer)", fr: "Responsable Finances et Administration (Trésorier)" },
     bio: {
