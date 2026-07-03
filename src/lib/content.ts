@@ -271,12 +271,12 @@ export const successStories: SuccessStory[] = [
     slug: "matthew",
     name: "Matthew",
     title: {
-      en: "From abandonment to a future of hope",
-      fr: "De l'abandon a un avenir rempli d'esperance",
+      en: "From a forgotten child to a baptized believer",
+      fr: "D'un enfant oublie a un croyant baptise",
     },
     excerpt: {
-      en: "Found alone and afraid, Matthew now smiles, learns, and dreams of becoming a teacher one day.",
-      fr: "Trouve seul et effraye, Matthew sourit aujourd'hui, apprend et reve de devenir enseignant un jour.",
+      en: "Once abandoned and afraid, Matthew gave his heart to Jesus and joyfully declared his new faith through water baptism.",
+      fr: "Autrefois abandonne et effraye, Matthew a donne son coeur a Jesus et a declare avec joie sa nouvelle foi par le bapteme d'eau.",
     },
     story: [
       {
@@ -284,12 +284,12 @@ export const successStories: SuccessStory[] = [
         fr: "Lorsque Matthew est arrive pour la premiere fois chez nous, il avait ete abandonne et laisse seul pour survivre. Effraye, mal nourri et renferme sur lui-meme, il portait des blessures bien plus profondes que ce que l'on pouvait voir.",
       },
       {
-        en: "Through the love of a caring community, nutritious meals, healthcare, and a safe place to call home, Matthew slowly began to heal. He discovered his love for learning and the joy of simply being a child again.",
-        fr: "Grace a l'amour d'une communaute bienveillante, a des repas nutritifs, a des soins de sante et a un lieu sur qu'il peut appeler chez lui, Matthew a commence peu a peu a guerir. Il a redecouvert son gout pour l'apprentissage et la joie d'etre simplement un enfant.",
+        en: "Through the love of a caring community, Bible lessons, prayer, and daily discipleship, Matthew slowly began to heal, and for the first time he heard how deeply Jesus loved him. What began as mere survival grew into a living faith.",
+        fr: "Grace a l'amour d'une communaute bienveillante, aux lecons bibliques, a la priere et au discipulat quotidien, Matthew a commence peu a peu a guerir, et pour la premiere fois il a entendu combien Jesus l'aimait. Ce qui n'etait que survie est devenu une foi vivante.",
       },
       {
-        en: "Today, Matthew is thriving in school and growing in his faith. He dreams of becoming a teacher so that one day he can give other children the hope that was given to him.",
-        fr: "Aujourd'hui, Matthew s'epanouit a l'ecole et grandit dans la foi. Il reve de devenir enseignant afin d'offrir un jour a d'autres enfants l'esperance qu'il a lui-meme recue.",
+        en: "On the day of his water baptism, Matthew waded into the river to publicly declare that he now belongs to Christ. Rising from the water, he was no longer a forgotten child but a new creation, full of hope and ready to help build God's Kingdom.",
+        fr: "Le jour de son bapteme d'eau, Matthew est entre dans la riviere pour declarer publiquement qu'il appartient desormais au Christ. En sortant de l'eau, il n'etait plus un enfant oublie mais une nouvelle creation, rempli d'esperance et pret a batir le Royaume de Dieu.",
       },
     ],
     image: "/images/baptism-boy.jpeg",
@@ -298,25 +298,25 @@ export const successStories: SuccessStory[] = [
     slug: "grace",
     name: "Grace",
     title: {
-      en: "A daughter restored, a life transformed",
-      fr: "Une fille restauree, une vie transformee",
+      en: "A new life in Christ, sealed in baptism",
+      fr: "Une vie nouvelle en Christ, scellee par le bapteme",
     },
     excerpt: {
-      en: "Grace was sick and overlooked, but through care and discipleship she has blossomed into a joyful young leader.",
-      fr: "Grace etait malade et ignoree, mais grace aux soins et au discipulat, elle est devenue une jeune leader joyeuse.",
+      en: "Grace found healing and hope, gave her life to Jesus, and with a radiant smile was baptized as a beloved child of God.",
+      fr: "Grace a trouve la guerison et l'esperance, a donne sa vie a Jesus et, avec un sourire radieux, a ete baptisee comme une enfant bien-aimee de Dieu.",
     },
     story: [
       {
-        en: "Grace came to us weak and unwell, having gone without proper food or medical attention for far too long. Few believed she would recover, but we believed every child's future can be transformed.",
+        en: "Grace came to us weak and overlooked, having gone without proper food or medical attention for far too long. Few believed she would recover, but we believed every child's future can be transformed.",
         fr: "Grace est arrivee chez nous faible et souffrante, apres avoir ete privee trop longtemps d'une alimentation correcte et de soins medicaux. Peu de gens pensaient qu'elle guerirait, mais nous croyions que l'avenir de chaque enfant peut etre transforme.",
       },
       {
-        en: "With consistent healthcare, nourishing meals, education, and a family that loved her, Grace grew stronger every day. She came to know Jesus and began to shine with a joy that lights up every room she enters.",
-        fr: "Avec des soins de sante reguliers, des repas nourrissants, l'education et une famille qui l'aimait, Grace est devenue plus forte chaque jour. Elle a appris a connaitre Jesus et a commence a rayonner d'une joie qui illumine chaque piece ou elle entre.",
+        en: "With consistent care, a family that loved her, and patient discipleship, Grace grew stronger every day. As she learned about Jesus, her heart opened to Him, and a quiet, unshakable joy began to shine through her.",
+        fr: "Avec des soins reguliers, une famille qui l'aimait et un discipulat patient, Grace est devenue plus forte chaque jour. En apprenant a connaitre Jesus, son coeur s'est ouvert a Lui, et une joie tranquille et inebranlable a commence a rayonner en elle.",
       },
       {
-        en: "Now Grace is healthy, confident, and full of life. She helps care for younger children and is becoming exactly what our name promises: a builder of God's Kingdom.",
-        fr: "Aujourd'hui, Grace est en bonne sante, sure d'elle et pleine de vie. Elle aide a prendre soin des plus jeunes et devient exactement ce que notre nom annonce: une batisseuse du Royaume de Dieu.",
+        en: "On the day she was baptized, Grace could not stop smiling. Rising from the water, she stepped into a brand-new life as a daughter of God, a living testimony that no child is ever too far gone for the love of Christ.",
+        fr: "Le jour de son bapteme, Grace ne pouvait s'empecher de sourire. En sortant de l'eau, elle est entree dans une vie toute nouvelle comme fille de Dieu, un temoignage vivant qu'aucun enfant n'est jamais trop perdu pour l'amour du Christ.",
       },
     ],
     image: "/images/baptism-girl.jpeg",
