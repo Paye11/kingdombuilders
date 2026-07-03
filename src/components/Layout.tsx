@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom"
 import { Navbar } from "./Navbar"
 import { Footer } from "./Footer"
 import { WhatsAppButton } from "./WhatsAppButton"
+import { LanguageToggleButton } from "./LanguageToggleButton"
 import { ScrollToTop } from "./ScrollToTop"
 
 export function Layout() {
@@ -13,6 +14,7 @@ export function Layout() {
         <Outlet />
       </main>
       <Footer />
+      <LanguageToggleButton />
       <WhatsAppButton />
     </div>
   )

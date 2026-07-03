@@ -75,7 +75,7 @@ export function HomeHero() {
           variants={fadeUp}
           initial="hidden"
           animate="show"
-          className="mt-7 max-w-4xl text-balance font-heading text-4xl font-bold leading-[1.05] text-white sm:text-6xl lg:text-7xl"
+          className="mt-7 max-w-4xl text-balance font-heading text-3xl font-bold leading-[1.1] text-white sm:text-6xl sm:leading-[1.05] lg:text-7xl"
         >
           {t({ en: "Rescuing & Raising", fr: "Secourir et Elever" })}{" "}
           <span className="animate-text-blink text-gold">
