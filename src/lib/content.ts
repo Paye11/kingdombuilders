@@ -132,7 +132,7 @@ export const programs: Program[] = [
       fr: "Offrir un abri, des soins, une protection et un soutien familial aux enfants orphelins et abandonnes afin qu'aucun enfant n'affronte le monde seul.",
     },
     icon: HeartHandshake,
-    image: "/images/program-orphan-care.png",
+    image: "/images/family-visit.jpeg",
   },
   {
     slug: "disability-care",
@@ -149,7 +149,7 @@ export const programs: Program[] = [
       fr: "Servir les enfants ayant des handicaps physiques, auditifs, visuels, intellectuels et developpementaux, en veillant a ce qu'ils soient inclus, valorises et qu'ils aient toutes les chances de s'epanouir.",
     },
     icon: Accessibility,
-    image: "/images/program-disability.png",
+    image: "/images/children-group.jpeg",
   },
   {
     slug: "feeding-nutrition",
@@ -163,7 +163,7 @@ export const programs: Program[] = [
       fr: "Combattre la faim et la malnutrition chez les enfants vulnerables grace a des repas nutritifs et a un soutien nutritionnel continu.",
     },
     icon: Utensils,
-    image: "/images/program-feeding.png",
+    image: "/images/children-crowd.jpeg",
   },
   {
     slug: "education-support",
@@ -177,7 +177,7 @@ export const programs: Program[] = [
       fr: "Aider les enfants a acceder a une education de qualite grace a l'inscription scolaire, au materiel pedagogique et a l'accompagnement scolaire.",
     },
     icon: GraduationCap,
-    image: "/images/program-education.png",
+    image: "/images/community-home.jpeg",
   },
   {
     slug: "child-health",
@@ -191,7 +191,7 @@ export const programs: Program[] = [
       fr: "Fournir des traitements medicaux, des depistages et un soutien sanitaire afin que les enfants grandissent forts et en bonne sante.",
     },
     icon: Stethoscope,
-    image: "/images/program-health.png",
+    image: "/images/children-celebration-2.jpeg",
   },
   {
     slug: "discipleship",
@@ -208,7 +208,7 @@ export const programs: Program[] = [
       fr: "Enseigner aux enfants Jesus-Christ au moyen d'etudes bibliques, de la priere, de la louange et de la formation du caractere, afin de faire grandir une generation enracinee dans la foi.",
     },
     icon: BookOpen,
-    image: "/images/program-discipleship.png",
+    image: "/images/evening-service.jpeg",
   },
   {
     slug: "family-strengthening",
@@ -222,7 +222,7 @@ export const programs: Program[] = [
       fr: "Aider les familles et les personnes en charge des enfants a mieux prendre soin des enfants vulnerables grace au soutien, a la formation et a l'encouragement.",
     },
     icon: Home,
-    image: "/images/program-family.png",
+    image: "/images/congregation.jpeg",
   },
   {
     slug: "community-outreach",
@@ -236,7 +236,7 @@ export const programs: Program[] = [
       fr: "Mobiliser les eglises et les communautes pour soutenir et proteger les enfants vulnerables, en multipliant la compassion dans toute la nation.",
     },
     icon: Users,
-    image: "/images/program-outreach.png",
+    image: "/images/church-gathering.jpeg",
   },
 ]
 
@@ -292,7 +292,7 @@ export const successStories: SuccessStory[] = [
         fr: "Aujourd'hui, Matthew s'epanouit a l'ecole et grandit dans la foi. Il reve de devenir enseignant afin d'offrir un jour a d'autres enfants l'esperance qu'il a lui-meme recue.",
       },
     ],
-    image: "/images/story-matthew.png",
+    image: "/images/baptism-boy.jpeg",
   },
   {
     slug: "grace",
@@ -319,7 +319,7 @@ export const successStories: SuccessStory[] = [
         fr: "Aujourd'hui, Grace est en bonne sante, sure d'elle et pleine de vie. Elle aide a prendre soin des plus jeunes et devient exactement ce que notre nom annonce: une batisseuse du Royaume de Dieu.",
       },
     ],
-    image: "/images/story-grace.png",
+    image: "/images/baptism-girl.jpeg",
   },
 ]
 

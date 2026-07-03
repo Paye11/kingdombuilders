@@ -96,7 +96,7 @@ export default function GetInvolvedPage() {
           en: "There are many ways to join the mission. Find the one that fits your heart and help build children for God's Kingdom.",
           fr: "Il existe plusieurs facons de rejoindre la mission. Trouvez celle qui correspond a votre coeur et aidez a former des enfants pour le Royaume de Dieu.",
         })}
-        image="/images/hero-involved.png"
+        image="/images/outreach-preaching.jpeg"
       />
 
       <section className="bg-background py-20 lg:py-28">

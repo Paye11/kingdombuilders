@@ -37,7 +37,7 @@ export default function AboutPage() {
           en: "A Christ-centered ministry devoted to rescuing, nurturing, and empowering the most vulnerable children.",
           fr: "Un ministere centre sur Christ consacre au secours, a l'accompagnement et au renforcement des enfants les plus vulnerables.",
         })}
-        image="/images/hero-about.png"
+        image="/images/congregation.jpeg"
       />
 
       {/* Story */}
@@ -46,7 +46,7 @@ export default function AboutPage() {
           <Reveal direction="right">
             <div className="overflow-hidden rounded-3xl shadow-xl">
               <img
-                src="/images/hero-children.png"
+                src="/images/children-joy.jpeg"
                 alt={t({
                   en: "Children cared for by Kingdom Builders Kids",
                   fr: "Des enfants accompagnes par Kingdom Builders Kids",
@@ -217,7 +217,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="overflow-hidden rounded-3xl shadow-xl">
                 <img
-                  src="/images/founder.png"
+                  src="/images/CEO.jpeg"
                   alt={site.founder}
                   className="aspect-[4/5] w-full object-cover"
                 />

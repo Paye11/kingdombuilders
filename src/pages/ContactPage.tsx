@@ -38,7 +38,7 @@ export default function ContactPage() {
           en: "Whether you want to give, volunteer, partner, or simply ask a question, our door is always open.",
           fr: "Que vous souhaitiez faire un don, faire du benevolat, devenir partenaire ou simplement poser une question, notre porte vous est toujours ouverte.",
         })}
-        image="/images/hero-contact.png"
+        image="/images/community-home.jpeg"
       />
 
       <section className="bg-background py-20 lg:py-28">

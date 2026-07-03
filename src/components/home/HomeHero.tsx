@@ -14,19 +14,19 @@ const fadeUp = {
 
 const bandImages = [
   {
-    src: "/images/program-education.png",
-    alt: { en: "Children learning in school", fr: "Des enfants qui apprennent a l'ecole" },
+    src: "/images/community-home.jpeg",
+    alt: { en: "Children gathered together in the community", fr: "Des enfants rassembles dans la communaute" },
   },
   {
-    src: "/images/program-feeding.png",
-    alt: { en: "Children sharing a meal", fr: "Des enfants partageant un repas" },
+    src: "/images/children-crowd.jpeg",
+    alt: { en: "Children gathered at a ministry outreach", fr: "Des enfants rassembles lors d'une action du ministere" },
   },
   {
-    src: "/images/program-discipleship.png",
-    alt: { en: "Children in a Bible lesson", fr: "Des enfants dans une lecon biblique" },
+    src: "/images/evening-service.jpeg",
+    alt: { en: "Children in an evening worship service", fr: "Des enfants lors d'un culte du soir" },
   },
   {
-    src: "/images/gallery-6.png",
+    src: "/images/children-celebration.jpeg",
     alt: { en: "Children smiling together", fr: "Des enfants souriant ensemble" },
   },
 ]
@@ -39,7 +39,7 @@ export function HomeHero() {
       {/* Background image + overlays */}
       <div className="absolute inset-0">
         <img
-          src="/images/hero-children.png"
+          src="/images/children-joy.jpeg"
           alt={t({
             en: "Joyful children supported by Kingdom Builders Kids",
             fr: "Des enfants joyeux accompagnes par Kingdom Builders Kids",

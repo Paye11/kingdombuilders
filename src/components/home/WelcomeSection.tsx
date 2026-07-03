@@ -14,8 +14,8 @@ export function WelcomeSection() {
           <div className="relative">
             <div className="overflow-hidden rounded-3xl shadow-xl">
               <img
-                src="/images/welcome.png"
-                alt={t({ en: "A child smiling with hope", fr: "Un enfant qui sourit avec espoir" })}
+                src="/images/children-celebration-2.jpeg"
+                alt={t({ en: "Children smiling with hope", fr: "Des enfants qui sourient avec espoir" })}
                 className="aspect-[4/5] w-full object-cover"
               />
             </div>

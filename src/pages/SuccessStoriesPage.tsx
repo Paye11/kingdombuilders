@@ -30,7 +30,7 @@ export default function SuccessStoriesPage() {
           en: "Behind every program is a child whose life has been forever changed by love, care, and the hope of Christ.",
           fr: "Derriere chaque programme se trouve un enfant dont la vie a ete changee pour toujours par l'amour, les soins et l'esperance du Christ.",
         })}
-        image="/images/hero-stories.png"
+        image="/images/children-celebration-2.jpeg"
       />
 
       <section className="bg-background py-20 lg:py-28">

@@ -9,14 +9,21 @@ import { CtaSection } from "../components/CtaSection"
 import { useLanguage } from "../context/LanguageContext"
 
 const images = [
-  { src: "/images/gallery-1.png", alt: { en: "Children playing joyfully together", fr: "Des enfants jouant joyeusement ensemble" } },
-  { src: "/images/gallery-2.png", alt: { en: "Children worshipping in church", fr: "Des enfants adorant dans une eglise" } },
-  { src: "/images/gallery-3.png", alt: { en: "Volunteers distributing supplies at an outreach", fr: "Des benevoles distribuant des fournitures lors d'une action sociale" } },
-  { src: "/images/gallery-4.png", alt: { en: "A girl reading and learning at school", fr: "Une fille qui lit et apprend a l'ecole" } },
-  { src: "/images/gallery-5.png", alt: { en: "A caregiver holding a smiling toddler", fr: "Une personne en charge d'un tout-petit souriant" } },
-  { src: "/images/gallery-6.png", alt: { en: "A group of children smiling together", fr: "Un groupe d'enfants souriant ensemble" } },
-  { src: "/images/gallery-7.png", alt: { en: "Children with disabilities included in play", fr: "Des enfants en situation de handicap inclus dans le jeu" } },
-  { src: "/images/gallery-8.png", alt: { en: "A pastor praying with children", fr: "Un pasteur priant avec des enfants" } },
+  { src: "/images/children-joy.jpeg", alt: { en: "Children smiling together with their pastor", fr: "Des enfants souriant avec leur pasteur" } },
+  { src: "/images/children-crowd.jpeg", alt: { en: "Children and families gathered at an evening service", fr: "Des enfants et des familles reunis lors d'un culte du soir" } },
+  { src: "/images/evening-service.jpeg", alt: { en: "An evening worship service with the children", fr: "Un culte du soir avec les enfants" } },
+  { src: "/images/evening-service-2.jpeg", alt: { en: "Children standing together during worship", fr: "Des enfants debout ensemble pendant la louange" } },
+  { src: "/images/evening-service-3.jpeg", alt: { en: "Ministers leading the children in worship", fr: "Des serviteurs conduisant les enfants dans la louange" } },
+  { src: "/images/outreach-preaching.jpeg", alt: { en: "Sharing the gospel during a community outreach", fr: "Annonce de l'evangile lors d'une action communautaire" } },
+  { src: "/images/baptism-boy.jpeg", alt: { en: "A young boy being baptized in the river", fr: "Un jeune garcon baptise dans la riviere" } },
+  { src: "/images/baptism-girl.jpeg", alt: { en: "A girl joyfully baptized in water", fr: "Une fille joyeusement baptisee dans l'eau" } },
+  { src: "/images/children-celebration.jpeg", alt: { en: "Children celebrating together at a church gathering", fr: "Des enfants qui celebrent ensemble lors d'un rassemblement" } },
+  { src: "/images/children-celebration-2.jpeg", alt: { en: "Joyful children at a church celebration", fr: "Des enfants joyeux lors d'une celebration a l'eglise" } },
+  { src: "/images/children-group.jpeg", alt: { en: "A large group of children together", fr: "Un grand groupe d'enfants ensemble" } },
+  { src: "/images/congregation.jpeg", alt: { en: "The community gathered outside the church", fr: "La communaute rassemblee devant l'eglise" } },
+  { src: "/images/church-gathering.jpeg", alt: { en: "The church family gathered together", fr: "La famille de l'eglise reunie" } },
+  { src: "/images/community-home.jpeg", alt: { en: "Children and caregivers by their home", fr: "Des enfants et leurs tuteurs pres de leur maison" } },
+  { src: "/images/family-visit.jpeg", alt: { en: "A family welcomed and supported by the ministry", fr: "Une famille accueillie et soutenue par le ministere" } },
 ]
 
 export default function GalleryPage() {
@@ -41,7 +48,7 @@ export default function GalleryPage() {
           en: "A glimpse into the lives being transformed and the joy that fills our ministry every day.",
           fr: "Un apercu des vies en cours de transformation et de la joie qui remplit notre ministere chaque jour.",
         })}
-        image="/images/hero-gallery.png"
+        image="/images/children-celebration.jpeg"
       />
 
       <section className="bg-background py-20 lg:py-28">

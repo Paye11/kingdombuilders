@@ -71,7 +71,7 @@ export default function DonatePage() {
           en: "Every donation helps rescue, feed, heal, educate, and disciple a vulnerable child. Together we build children for God's Kingdom.",
           fr: "Chaque don aide a secourir, nourrir, soigner, eduquer et discipuler un enfant vulnerable. Ensemble, nous formons des enfants pour le Royaume de Dieu.",
         })}
-        image="/images/hero-donate.png"
+        image="/images/children-crowd.jpeg"
       />
 
       {/* Impact */}

@@ -29,7 +29,7 @@ export default function OurTeamPage() {
           en: "A dedicated team committed to transforming the lives of vulnerable children in the love of Christ.",
           fr: "Une equipe dediee engagee a transformer la vie des enfants vulnerables dans l'amour de Christ.",
         })}
-        image="/images/hero-about.png"
+        image="/images/congregation.jpeg"
       />
 
       {/* Team Grid */}
