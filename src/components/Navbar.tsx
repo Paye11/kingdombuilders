@@ -19,8 +19,8 @@ export function Navbar() {
 
   const labels = {
     home: { en: "Home", fr: "Accueil" },
-    about: { en: "About Us", fr: "A Propos" },
-    ourTeam: { en: "Our Team", fr: "Notre Equipe" },
+    about: { en: "About Us", fr: "À propos" },
+    ourTeam: { en: "Our Team", fr: "Notre équipe" },
     programs: { en: "Programs", fr: "Programmes" },
     gallery: { en: "Gallery", fr: "Galerie" },
     involved: { en: "Get Involved", fr: "S'impliquer" },

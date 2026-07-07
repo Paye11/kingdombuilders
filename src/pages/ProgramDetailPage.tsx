@@ -11,34 +11,34 @@ import type { LocalizedText } from "../lib/i18n"
 
 const highlightsBySlug: Record<string, LocalizedText[]> = {
   "orphan-care": [
-    { en: "Safe shelter and loving family-style care", fr: "Un abri sur et un accompagnement familial rempli d'amour" },
-    { en: "Daily provision of food, clothing, and essentials", fr: "Une provision quotidienne de nourriture, de vetements et d'articles essentiels" },
-    { en: "Protection from abuse, neglect, and exploitation", fr: "Une protection contre les abus, la negligeance et l'exploitation" },
-    { en: "Emotional healing and a sense of belonging", fr: "La guerison emotionnelle et un sentiment d'appartenance" },
+    { en: "Safe shelter and loving family-style care", fr: "Un abri sûr et un accompagnement familial rempli d'amour" },
+    { en: "Daily provision of food, clothing, and essentials", fr: "Une provision quotidienne de nourriture, de vêtements et d'articles essentiels" },
+    { en: "Protection from abuse, neglect, and exploitation", fr: "Une protection contre les abus, la négligence et l'exploitation" },
+    { en: "Emotional healing and a sense of belonging", fr: "La guérison émotionnelle et un sentiment d'appartenance" },
   ],
   "education-support": [
-    { en: "School enrollment and tuition assistance", fr: "Inscription scolaire et aide aux frais de scolarite" },
-    { en: "Books, uniforms, and learning materials", fr: "Livres, uniformes et materiel d'apprentissage" },
-    { en: "After-school tutoring and academic support", fr: "Soutien scolaire apres les cours et accompagnement academique" },
-    { en: "Encouraging every child to reach their potential", fr: "Encourager chaque enfant a atteindre son potentiel" },
+    { en: "School enrollment and tuition assistance", fr: "Inscription scolaire et aide aux frais de scolarité" },
+    { en: "Books, uniforms, and learning materials", fr: "Livres, uniformes et matériel d'apprentissage" },
+    { en: "After-school tutoring and academic support", fr: "Soutien scolaire après les cours et accompagnement académique" },
+    { en: "Encouraging every child to reach their potential", fr: "Encourager chaque enfant à atteindre son potentiel" },
   ],
   "child-health": [
-    { en: "Medical treatment and regular check-ups", fr: "Traitements medicaux et bilans reguliers" },
-    { en: "Health screenings and preventative care", fr: "Depistages de sante et soins preventifs" },
+    { en: "Medical treatment and regular check-ups", fr: "Traitements médicaux et bilans réguliers" },
+    { en: "Health screenings and preventative care", fr: "Dépistages de santé et soins préventifs" },
     { en: "Nutritional support for healthy growth", fr: "Soutien nutritionnel pour une croissance saine" },
-    { en: "Access to medicine and follow-up care", fr: "Acces aux medicaments et aux soins de suivi" },
+    { en: "Access to medicine and follow-up care", fr: "Accès aux médicaments et aux soins de suivi" },
   ],
   discipleship: [
-    { en: "Bible lessons and Scripture memorization", fr: "Lecons bibliques et memorisation des Ecritures" },
-    { en: "Prayer, worship, and spiritual mentoring", fr: "Priere, louange et mentorat spirituel" },
-    { en: "Christian character and values development", fr: "Developpement du caractere et des valeurs chretiennes" },
+    { en: "Bible lessons and Scripture memorization", fr: "Leçons bibliques et mémorisation des Écritures" },
+    { en: "Prayer, worship, and spiritual mentoring", fr: "Prière, louange et mentorat spirituel" },
+    { en: "Christian character and values development", fr: "Développement du caractère et des valeurs chrétiennes" },
     { en: "Raising future godly leaders", fr: "Former de futurs leaders pieux" },
   ],
   "community-outreach": [
-    { en: "Mobilizing churches to care for children", fr: "Mobiliser les eglises pour prendre soin des enfants" },
+    { en: "Mobilizing churches to care for children", fr: "Mobiliser les églises pour prendre soin des enfants" },
     { en: "Partnering with families and caregivers", fr: "Collaborer avec les familles et les personnes en charge des enfants" },
-    { en: "Identifying and supporting vulnerable children", fr: "Identifier et soutenir les enfants vulnerables" },
-    { en: "Multiplying compassion across communities", fr: "Multiplier la compassion dans les communautes" },
+    { en: "Identifying and supporting vulnerable children", fr: "Identifier et soutenir les enfants vulnérables" },
+    { en: "Multiplying compassion across communities", fr: "Multiplier la compassion dans les communautés" },
   ],
 }
 
@@ -89,7 +89,7 @@ export default function ProgramDetailPage() {
                     <Icon className="h-7 w-7" />
                   </div>
                   <span className="font-heading text-sm font-semibold uppercase tracking-widest text-green">
-                    {t({ en: "Our Programs", fr: "Nos Programmes" })}
+                    {t({ en: "Our Programs", fr: "Nos programmes" })}
                   </span>
                 </div>
 
@@ -118,7 +118,7 @@ export default function ProgramDetailPage() {
 
                 <div className="mt-8 flex flex-wrap gap-3">
                   <ButtonLink to="/donate" variant="gold">
-                    {t({ en: "Support This Program", fr: "Soutenir Ce Programme" })}
+                    {t({ en: "Support This Program", fr: "Soutenir ce programme" })}
                   </ButtonLink>
                   <ButtonLink to="/get-involved" variant="outline">
                     {t({ en: "Get Involved", fr: "S'impliquer" })}
@@ -134,7 +134,7 @@ export default function ProgramDetailPage() {
       <section className="bg-cream py-20 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <h2 className="text-center font-heading text-2xl font-bold text-royal-dark sm:text-3xl">
-            {t({ en: "Explore Other Programs", fr: "Explorer les Autres Programmes" })}
+            {t({ en: "Explore Other Programs", fr: "Explorer les autres programmes" })}
           </h2>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {others.map((p, i) => {
@@ -178,11 +178,11 @@ export default function ProgramDetailPage() {
       <CtaSection
         title={{
           en: "Help Us Sustain This Program",
-          fr: "Aidez-Nous a Soutenir Ce Programme",
+          fr: "Aidez-nous à soutenir ce programme",
         }}
         description={{
           en: "Your generosity keeps this program running and changes the lives of children who need it most.",
-          fr: "Votre generosite permet a ce programme de continuer et transforme la vie des enfants qui en ont le plus besoin.",
+          fr: "Votre générosité permet à ce programme de continuer et transforme la vie des enfants qui en ont le plus besoin.",
         }}
       />
     </>

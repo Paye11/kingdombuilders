@@ -13,7 +13,7 @@ export const site = {
   founder: "[Founder Name]",
   founderTitle: {
     en: "Founder & Executive Director",
-    fr: "Fondatrice et directrice executive",
+    fr: "Fondatrice et directrice exécutive",
   },
 
   // --- CONTACT (placeholders — replace with real details) ---
@@ -78,26 +78,26 @@ export const isEmailConfigured =
 export const programsMenu = [
   {
     to: "/programs/orphan-care",
-    label: { en: "Orphan Care Program", fr: "Programme de Prise en Charge des Orphelins" },
+    label: { en: "Orphan Care Program", fr: "Programme de prise en charge des orphelins" },
   },
   {
     to: "/programs/education-support",
-    label: { en: "Education Support Program", fr: "Programme de Soutien Educatif" },
+    label: { en: "Education Support Program", fr: "Programme de soutien éducatif" },
   },
   {
     to: "/programs/child-health",
-    label: { en: "Child Health Program", fr: "Programme de Sante Infantile" },
+    label: { en: "Child Health Program", fr: "Programme de santé infantile" },
   },
   {
     to: "/programs/discipleship",
     label: {
       en: "Kingdom Builders Discipleship Program",
-      fr: "Programme de Discipulat Kingdom Builders",
+      fr: "Programme de discipulat Kingdom Builders",
     },
   },
   {
     to: "/programs/community-outreach",
-    label: { en: "Community Outreach Program", fr: "Programme de Sensibilisation Communautaire" },
+    label: { en: "Community Outreach Program", fr: "Programme de sensibilisation communautaire" },
   },
-  { to: "/success-stories", label: { en: "Success Stories", fr: "Temoignages de Reussite" } },
+  { to: "/success-stories", label: { en: "Success Stories", fr: "Témoignages de réussite" } },
 ] satisfies Array<{ to: string; label: LocalizedText }>

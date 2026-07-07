@@ -7,7 +7,7 @@ export function WhatsAppButton() {
   const href = `https://wa.me/${site.whatsappNumberDigits}?text=${encodeURIComponent(
     t({
       en: "Hello Kingdom Builders Kids, I would like to learn more about your ministry.",
-      fr: "Bonjour Kingdom Builders Kids, je voudrais en savoir plus sur votre ministere.",
+      fr: "Bonjour Kingdom Builders Kids, je voudrais en savoir plus sur votre ministère.",
     }),
   )}`
 

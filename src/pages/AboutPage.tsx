@@ -20,22 +20,22 @@ export default function AboutPage() {
   useSeo({
     title: t({
       en: "About Us | Kingdom Builders Kids",
-      fr: "A Propos | Kingdom Builders Kids",
+      fr: "À propos | Kingdom Builders Kids",
     }),
     description: t({
       en: "Learn about Kingdom Builders Kids — our story, vision, mission, core values, objectives, and long-term goals to care for vulnerable children in the love of Christ.",
-      fr: "Decouvrez Kingdom Builders Kids: notre histoire, notre vision, notre mission, nos valeurs fondamentales, nos objectifs et nos buts a long terme pour prendre soin des enfants vulnerables dans l'amour du Christ.",
+      fr: "Découvrez Kingdom Builders Kids : notre histoire, notre vision, notre mission, nos valeurs fondamentales, nos objectifs et nos buts à long terme pour prendre soin des enfants vulnérables dans l'amour du Christ.",
     }),
   })
 
   return (
     <>
       <PageHero
-        crumb={t({ en: "About Us", fr: "A Propos" })}
-        title={t({ en: "Who We Are", fr: "Qui Nous Sommes" })}
+        crumb={t({ en: "About Us", fr: "À propos" })}
+        title={t({ en: "Who We Are", fr: "Qui nous sommes" })}
         subtitle={t({
           en: "A Christ-centered ministry devoted to rescuing, nurturing, and empowering the most vulnerable children.",
-          fr: "Un ministere centre sur Christ consacre au secours, a l'accompagnement et au renforcement des enfants les plus vulnerables.",
+          fr: "Un ministère centré sur le Christ, consacré au secours, à l'accompagnement et au renforcement des enfants les plus vulnérables.",
         })}
         image="/images/congregation.jpeg"
       />
@@ -49,7 +49,7 @@ export default function AboutPage() {
                 src="/images/children-joy.jpeg"
                 alt={t({
                   en: "Children cared for by Kingdom Builders Kids",
-                  fr: "Des enfants accompagnes par Kingdom Builders Kids",
+                  fr: "Des enfants accompagnés par Kingdom Builders Kids",
                 })}
                 className="aspect-[4/3] w-full object-cover"
               />
@@ -57,7 +57,7 @@ export default function AboutPage() {
           </Reveal>
           <Reveal direction="left" delay={0.1}>
             <span className="font-heading text-sm font-semibold uppercase tracking-widest text-green">
-              {t({ en: "Our Story", fr: "Notre Histoire" })}
+              {t({ en: "Our Story", fr: "Notre histoire" })}
             </span>
             <h2 className="mt-3 text-balance font-heading text-3xl font-bold text-royal-dark sm:text-4xl">
               {t({
@@ -70,19 +70,19 @@ export default function AboutPage() {
               <p>
                 {t({
                   en: "Kingdom Builders Kids was born out of a deep compassion for orphaned, abandoned, disabled, and less fortunate children — the children the world too often forgets.",
-                  fr: "Kingdom Builders Kids est ne d'une profonde compassion pour les enfants orphelins, abandonnes, handicapes et defavorises, ceux que le monde oublie trop souvent.",
+                  fr: "Kingdom Builders Kids est né d'une profonde compassion pour les enfants orphelins, abandonnés, handicapés et défavorisés, ceux que le monde oublie trop souvent.",
                 })}
               </p>
               <p>
                 {t({
                   en: "We believe every child is precious and created in the image of God. No matter their background, tribe, religion, or social status, every child deserves love, protection, opportunity, and the hope found in Jesus Christ.",
-                  fr: "Nous croyons que chaque enfant est precieux et cree a l'image de Dieu. Quelle que soit son origine, son ethnie, sa religion ou son statut social, chaque enfant merite l'amour, la protection, des opportunites et l'esperance trouvee en Jesus-Christ.",
+                  fr: "Nous croyons que chaque enfant est précieux et créé à l'image de Dieu. Quelle que soit son origine, son ethnie, sa religion ou son statut social, chaque enfant mérite l'amour, la protection, des opportunités et l'espérance trouvée en Jésus-Christ.",
                 })}
               </p>
               <p>
                 {t({
                   en: "Through Christ-centered care, family support, healthcare, education, and spiritual development, we walk with vulnerable children and help them become godly leaders who will impact future generations for God's Kingdom.",
-                  fr: "Grace a des soins centres sur Christ, au soutien familial, a la sante, a l'education et au developpement spirituel, nous marchons avec les enfants vulnerables et les aidons a devenir des leaders pieux qui influenceront les generations futures pour le Royaume de Dieu.",
+                  fr: "Grâce à des soins centrés sur le Christ, au soutien familial, à la santé, à l'éducation et au développement spirituel, nous marchons avec les enfants vulnérables et les aidons à devenir des leaders pieux qui influenceront les générations futures pour le Royaume de Dieu.",
                 })}
               </p>
             </div>
@@ -126,11 +126,11 @@ export default function AboutPage() {
       <section className="bg-background py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <SectionHeading
-            eyebrow={t({ en: "What Guides Us", fr: "Ce Qui Nous Guide" })}
-            title={t({ en: "Our Core Values", fr: "Nos Valeurs Fondamentales" })}
+            eyebrow={t({ en: "What Guides Us", fr: "Ce qui nous guide" })}
+            title={t({ en: "Our Core Values", fr: "Nos valeurs fondamentales" })}
             subtitle={t({
               en: "The convictions that shape everything we do.",
-              fr: "Les convictions qui faconnent tout ce que nous faisons.",
+              fr: "Les convictions qui façonnent tout ce que nous faisons.",
             })}
           />
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -166,7 +166,7 @@ export default function AboutPage() {
               {t({ en: "Our Objectives", fr: "Nos Objectifs" })}
             </span>
             <h2 className="mt-3 text-balance font-heading text-3xl font-bold sm:text-4xl">
-              {t({ en: "What We Set Out To Do", fr: "Ce Que Nous Nous Engageons a Faire" })}
+              {t({ en: "What We Set Out To Do", fr: "Ce que nous nous engageons à faire" })}
             </h2>
           </div>
           <div className="mt-14 grid gap-4 sm:grid-cols-2">
@@ -188,11 +188,11 @@ export default function AboutPage() {
       <section className="bg-cream py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <SectionHeading
-            eyebrow={t({ en: "Looking Ahead", fr: "Regarder Plus Loin" })}
-            title={t({ en: "Our Long-Term Goals", fr: "Nos Objectifs a Long Terme" })}
+            eyebrow={t({ en: "Looking Ahead", fr: "Regarder plus loin" })}
+            title={t({ en: "Our Long-Term Goals", fr: "Nos objectifs à long terme" })}
             subtitle={t({
               en: "The future God is calling us to build, one child at a time.",
-              fr: "L'avenir que Dieu nous appelle a construire, un enfant a la fois.",
+              fr: "L'avenir que Dieu nous appelle à construire, un enfant à la fois.",
             })}
           />
           <div className="mt-14 grid gap-5 md:grid-cols-2">
@@ -230,7 +230,7 @@ export default function AboutPage() {
               &ldquo;
               {t({
                 en: "Every child is precious in the eyes of God. When we lift up the forgotten, the abandoned, and the vulnerable, we are building His Kingdom one life at a time.",
-                fr: "Chaque enfant est precieux aux yeux de Dieu. Quand nous relevons les oublies, les abandonnes et les vulnerables, nous construisons Son Royaume une vie a la fois.",
+                fr: "Chaque enfant est précieux aux yeux de Dieu. Quand nous relevons les oubliés, les abandonnés et les vulnérables, nous construisons Son Royaume une vie à la fois.",
               })}
               &rdquo;
             </blockquote>

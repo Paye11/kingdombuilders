@@ -12,22 +12,22 @@ export default function OurTeamPage() {
   useSeo({
     title: t({
       en: "Our Team | Kingdom Builders Kids",
-      fr: "Notre Equipe | Kingdom Builders Kids",
+      fr: "Notre équipe | Kingdom Builders Kids",
     }),
     description: t({
       en: "Meet the dedicated leadership team of Kingdom Builders Kids, committed to rescuing and empowering vulnerable children.",
-      fr: "Rencontrez l'equipe de direction dediee de Kingdom Builders Kids, engagee a secourir et a autonomiser les enfants vulnerables.",
+      fr: "Rencontrez l'équipe de direction dédiée de Kingdom Builders Kids, engagée à secourir et à autonomiser les enfants vulnérables.",
     }),
   })
 
   return (
     <>
       <PageHero
-        crumb={t({ en: "Our Team", fr: "Notre Equipe" })}
-        title={t({ en: "Meet Our Leadership", fr: "Rencontrez Notre Direction" })}
+        crumb={t({ en: "Our Team", fr: "Notre équipe" })}
+        title={t({ en: "Meet Our Leadership", fr: "Rencontrez notre direction" })}
         subtitle={t({
           en: "A dedicated team committed to transforming the lives of vulnerable children in the love of Christ.",
-          fr: "Une equipe dediee engagee a transformer la vie des enfants vulnerables dans l'amour de Christ.",
+          fr: "Une équipe dédiée, engagée à transformer la vie des enfants vulnérables dans l'amour du Christ.",
         })}
         image="/images/congregation.jpeg"
       />
@@ -36,11 +36,11 @@ export default function OurTeamPage() {
       <section className="bg-background py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <SectionHeading
-            eyebrow={t({ en: "Our Leadership", fr: "Notre Direction" })}
-            title={t({ en: "Who Leads Us", fr: "Qui Nous Dirige" })}
+            eyebrow={t({ en: "Our Leadership", fr: "Notre direction" })}
+            title={t({ en: "Who Leads Us", fr: "Qui nous dirige" })}
             subtitle={t({
               en: "Passionate individuals serving God by serving His children.",
-              fr: "Des individus passionnes servant Dieu en servant Ses enfants.",
+              fr: "Des personnes passionnées qui servent Dieu en servant Ses enfants.",
             })}
           />
           <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

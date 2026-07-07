@@ -7,11 +7,11 @@ import type { LocalizedText } from "@/lib/i18n"
 export function CtaSection({
   title = {
     en: "Every Child Deserves Hope",
-    fr: "Chaque enfant merite l'esperance",
+    fr: "Chaque enfant mérite l'espérance",
   },
   description = {
     en: "Your compassion can rescue a child from being forgotten. Partner with us today and help build children for God's Kingdom.",
-    fr: "Votre compassion peut sauver un enfant de l'oubli. Rejoignez-nous aujourd'hui et aidez-nous a former des enfants pour le Royaume de Dieu.",
+    fr: "Votre compassion peut sauver un enfant de l'oubli. Rejoignez-nous aujourd'hui et aidez-nous à former des enfants pour le Royaume de Dieu.",
   },
 }: {
   title?: LocalizedText

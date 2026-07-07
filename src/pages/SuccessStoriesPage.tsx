@@ -13,22 +13,22 @@ export default function SuccessStoriesPage() {
   useSeo({
     title: t({
       en: "Success Stories | Kingdom Builders Kids",
-      fr: "Temoignages de Reussite | Kingdom Builders Kids",
+      fr: "Témoignages de réussite | Kingdom Builders Kids",
     }),
     description: t({
       en: "Read real stories of hope and transformation — children who were once forgotten and are now thriving through the love and care of Kingdom Builders Kids.",
-      fr: "Lisez de vraies histoires d'esperance et de transformation: des enfants autrefois oublies qui s'epanouissent aujourd'hui grace a l'amour et aux soins de Kingdom Builders Kids.",
+      fr: "Lisez de vraies histoires d'espérance et de transformation : des enfants autrefois oubliés qui s'épanouissent aujourd'hui grâce à l'amour et aux soins de Kingdom Builders Kids.",
     }),
   })
 
   return (
     <>
       <PageHero
-        crumb={t({ en: "Success Stories", fr: "Temoignages de Reussite" })}
-        title={t({ en: "Stories of Hope & Transformation", fr: "Histoires d'Esperance et de Transformation" })}
+        crumb={t({ en: "Success Stories", fr: "Témoignages de réussite" })}
+        title={t({ en: "Stories of Hope & Transformation", fr: "Histoires d'espérance et de transformation" })}
         subtitle={t({
           en: "Behind every program is a child whose life has been forever changed by love, care, and the hope of Christ.",
-          fr: "Derriere chaque programme se trouve un enfant dont la vie a ete changee pour toujours par l'amour, les soins et l'esperance du Christ.",
+          fr: "Derrière chaque programme se trouve un enfant dont la vie a été changée pour toujours par l'amour, les soins et l'espérance du Christ.",
         })}
         image="/images/children-celebration-2.jpeg"
       />
@@ -36,11 +36,11 @@ export default function SuccessStoriesPage() {
       <section className="bg-background py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <SectionHeading
-            eyebrow={t({ en: "Lives Transformed", fr: "Vies Transformees" })}
-            title={t({ en: "Real Children, Real Hope", fr: "De Vrais Enfants, Une Vraie Esperance" })}
+            eyebrow={t({ en: "Lives Transformed", fr: "Vies transformées" })}
+            title={t({ en: "Real Children, Real Hope", fr: "De vrais enfants, une vraie espérance" })}
             subtitle={t({
               en: "These are just a few of the precious lives being rebuilt for God's Kingdom.",
-              fr: "Ce ne sont que quelques-unes des vies precieuses en reconstruction pour le Royaume de Dieu.",
+              fr: "Ce ne sont que quelques-unes des vies précieuses en reconstruction pour le Royaume de Dieu.",
             })}
           />
 
@@ -91,7 +91,7 @@ export default function SuccessStoriesPage() {
               <p className="mx-auto max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground">
                 {t({
                   en: "Every story of transformation begins with someone who chose to care. Your support can write the next story of hope.",
-                  fr: "Chaque histoire de transformation commence avec quelqu'un qui a choisi de prendre soin. Votre soutien peut ecrire la prochaine histoire d'esperance.",
+                  fr: "Chaque histoire de transformation commence avec quelqu'un qui a choisi de prendre soin. Votre soutien peut écrire la prochaine histoire d'espérance.",
                 })}
               </p>
             </div>
@@ -102,11 +102,11 @@ export default function SuccessStoriesPage() {
       <CtaSection
         title={{
           en: "Be Part of the Next Story",
-          fr: "Faites Partie de la Prochaine Histoire",
+          fr: "Faites partie de la prochaine histoire",
         }}
         description={{
           en: "When you give, volunteer, or pray, you help write a new story of hope for a child who needs it most.",
-          fr: "Lorsque vous donnez, faites du benevolat ou priez, vous aidez a ecrire une nouvelle histoire d'esperance pour un enfant qui en a le plus besoin.",
+          fr: "Lorsque vous donnez, faites du bénévolat ou priez, vous aidez à écrire une nouvelle histoire d'espérance pour un enfant qui en a le plus besoin.",
         }}
       />
     </>

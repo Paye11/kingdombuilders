@@ -32,10 +32,10 @@ export function WelcomeSection() {
 
         <Reveal direction="left" delay={0.1}>
           <span className="inline-block font-heading text-sm font-semibold uppercase tracking-widest text-green">
-            {t({ en: "Welcome to Kingdom Builders Kids", fr: "Bienvenue a Kingdom Builders Kids" })}
+            {t({ en: "Welcome to Kingdom Builders Kids", fr: "Bienvenue chez Kingdom Builders Kids" })}
           </span>
           <h2 className="mt-3 text-balance font-heading text-3xl font-bold leading-tight text-royal-dark sm:text-4xl">
-            {t({ en: "Every child deserves love, hope, and a future", fr: "Chaque enfant merite l'amour, l'esperance et un avenir" })}
+            {t({ en: "Every child deserves love, hope, and a future", fr: "Chaque enfant mérite l'amour, l'espérance et un avenir" })}
           </h2>
           <div className="mt-5 h-1 w-20 rounded-full bg-gold" />
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
@@ -44,12 +44,12 @@ export function WelcomeSection() {
           <p className="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">
             {t({
               en: "We believe every child is precious and created in the image of God. Through Christ-centered care, we walk with forgotten children and give them the chance to thrive.",
-              fr: "Nous croyons que chaque enfant est precieux et cree a l'image de Dieu. Grace a des soins centres sur Christ, nous marchons avec les enfants oublies et leur donnons l'occasion de s'epanouir.",
+              fr: "Nous croyons que chaque enfant est précieux et créé à l'image de Dieu. Grâce à des soins centrés sur le Christ, nous marchons avec les enfants oubliés et leur donnons l'occasion de s'épanouir.",
             })}
           </p>
           <div className="mt-8">
             <ButtonLink to="/about" variant="primary" size="lg">
-              {t({ en: "Learn Our Story", fr: "Decouvrir Notre Histoire" })} <ArrowRight className="h-5 w-5" />
+              {t({ en: "Learn Our Story", fr: "Découvrir notre histoire" })} <ArrowRight className="h-5 w-5" />
             </ButtonLink>
           </div>
         </Reveal>

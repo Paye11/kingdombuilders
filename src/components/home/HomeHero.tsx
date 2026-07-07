@@ -15,11 +15,11 @@ const fadeUp = {
 const bandImages = [
   {
     src: "/images/community-home.jpeg",
-    alt: { en: "Children gathered together in the community", fr: "Des enfants rassembles dans la communaute" },
+    alt: { en: "Children gathered together in the community", fr: "Des enfants rassemblés dans la communauté" },
   },
   {
     src: "/images/children-crowd.jpeg",
-    alt: { en: "Children gathered at a ministry outreach", fr: "Des enfants rassembles lors d'une action du ministere" },
+    alt: { en: "Children gathered at a ministry outreach", fr: "Des enfants rassemblés lors d'une action du ministère" },
   },
   {
     src: "/images/evening-service.jpeg",
@@ -42,7 +42,7 @@ export function HomeHero() {
           src="/images/children-joy.jpeg"
           alt={t({
             en: "Joyful children supported by Kingdom Builders Kids",
-            fr: "Des enfants joyeux accompagnes par Kingdom Builders Kids",
+            fr: "Des enfants joyeux accompagnés par Kingdom Builders Kids",
           })}
           className="h-full w-full object-cover object-center"
         />
@@ -66,7 +66,7 @@ export function HomeHero() {
         >
           {t({
             en: "A Christ-Centered Ministry of Hope",
-            fr: "Un ministere d'esperance centre sur Christ",
+            fr: "Un ministère d'espérance centré sur le Christ",
           })}
         </motion.span>
 
@@ -77,9 +77,9 @@ export function HomeHero() {
           animate="show"
           className="mt-7 max-w-4xl text-balance font-heading text-3xl font-bold leading-[1.1] text-white sm:text-6xl sm:leading-[1.05] lg:text-7xl"
         >
-          {t({ en: "Rescuing & Raising", fr: "Secourir et Elever" })}{" "}
+          {t({ en: "Rescuing & Raising", fr: "Secourir et élever" })}{" "}
           <span className="animate-text-blink text-gold">
-            {t({ en: "Forgotten Children", fr: "les Enfants Oublies" })}
+            {t({ en: "Forgotten Children", fr: "les enfants oubliés" })}
           </span>{" "}
           {t({ en: "for God's Kingdom", fr: "pour le Royaume de Dieu" })}
         </motion.h1>
@@ -93,7 +93,7 @@ export function HomeHero() {
         >
           {t({
             en: "We rescue, protect, nurture, educate, disciple, and empower orphaned, disabled, abandoned, and vulnerable children through the love of Jesus Christ.",
-            fr: "Nous secourons, protegeons, nourrissons, eduquons, discipulons et fortifions les enfants orphelins, handicapes, abandonnes et vulnerables par l'amour de Jesus-Christ.",
+            fr: "Nous secourons, protégeons, nourrissons, éduquons, disciplons et fortifions les enfants orphelins, handicapés, abandonnés et vulnérables par l'amour de Jésus-Christ.",
           })}
         </motion.p>
 
@@ -155,7 +155,7 @@ export function HomeHero() {
           className="mt-8 flex flex-col items-center gap-1 text-white/60"
         >
           <span className="text-xs font-semibold uppercase tracking-widest">
-            {t({ en: "Discover More", fr: "Decouvrir Plus" })}
+            {t({ en: "Discover More", fr: "Découvrir plus" })}
           </span>
           <ChevronDown className="h-5 w-5" />
         </motion.div>

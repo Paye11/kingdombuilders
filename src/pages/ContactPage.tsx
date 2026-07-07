@@ -16,7 +16,7 @@ export default function ContactPage() {
     title: t({ en: "Contact Us | Kingdom Builders Kids", fr: "Contact | Kingdom Builders Kids" }),
     description: t({
       en: "Get in touch with Kingdom Builders Kids. Send us a message, share a prayer request, or reach out to partner with us in caring for vulnerable children.",
-      fr: "Prenez contact avec Kingdom Builders Kids. Envoyez-nous un message, partagez une requete de priere ou contactez-nous pour collaborer avec nous dans l'accompagnement des enfants vulnerables.",
+      fr: "Prenez contact avec Kingdom Builders Kids. Envoyez-nous un message, partagez une requête de prière ou contactez-nous pour collaborer avec nous dans l'accompagnement des enfants vulnérables.",
     }),
   })
 
@@ -24,7 +24,7 @@ export default function ContactPage() {
 
   const details = [
     { icon: MapPin, label: t({ en: "Address", fr: "Adresse" }), value: site.address },
-    { icon: Phone, label: t({ en: "Phone", fr: "Telephone" }), value: `${site.phonePrimary} / ${site.phoneSecondary}` },
+    { icon: Phone, label: t({ en: "Phone", fr: "Téléphone" }), value: `${site.phonePrimary} / ${site.phoneSecondary}` },
     { icon: Mail, label: t({ en: "Email", fr: "Email" }), value: site.email },
     { icon: MessageCircle, label: t({ en: "WhatsApp", fr: "WhatsApp" }), value: site.whatsapp },
   ]
@@ -33,10 +33,10 @@ export default function ContactPage() {
     <>
       <PageHero
         crumb={t({ en: "Contact", fr: "Contact" })}
-        title={t({ en: "We'd Love to Hear From You", fr: "Nous Serions Heureux de Vous Entendre" })}
+        title={t({ en: "We'd Love to Hear From You", fr: "Nous serions heureux de vous entendre" })}
         subtitle={t({
           en: "Whether you want to give, volunteer, partner, or simply ask a question, our door is always open.",
-          fr: "Que vous souhaitiez faire un don, faire du benevolat, devenir partenaire ou simplement poser une question, notre porte vous est toujours ouverte.",
+          fr: "Que vous souhaitiez faire un don, faire du bénévolat, devenir partenaire ou simplement poser une question, notre porte vous est toujours ouverte.",
         })}
         image="/images/community-home.jpeg"
       />
@@ -46,16 +46,16 @@ export default function ContactPage() {
           {/* Contact details */}
           <Reveal direction="right" className="lg:col-span-2">
             <span className="font-heading text-sm font-semibold uppercase tracking-widest text-green">
-              {t({ en: "Get in Touch", fr: "Entrer en Contact" })}
+              {t({ en: "Get in Touch", fr: "Entrer en contact" })}
             </span>
             <h2 className="mt-3 text-balance font-heading text-3xl font-bold text-royal-dark">
-              {t({ en: "Reach Out to Us", fr: "Contactez-Nous" })}
+              {t({ en: "Reach Out to Us", fr: "Contactez-nous" })}
             </h2>
             <div className="mt-5 h-1 w-20 rounded-full bg-gold" />
             <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
               {t({
                 en: "Have a question or want to get involved? Use the form, or contact us directly with the details below.",
-                fr: "Vous avez une question ou vous voulez vous impliquer? Utilisez le formulaire ou contactez-nous directement avec les coordonnees ci-dessous.",
+                fr: "Vous avez une question ou vous voulez vous impliquer ? Utilisez le formulaire ou contactez-nous directement avec les coordonnées ci-dessous.",
               })}
             </p>
 
@@ -78,7 +78,7 @@ export default function ContactPage() {
 
             <div className="mt-8">
               <p className="font-heading font-semibold text-royal-dark">
-                {t({ en: "Follow Us", fr: "Suivez-Nous" })}
+                {t({ en: "Follow Us", fr: "Suivez-nous" })}
               </p>
               <div className="mt-3 flex gap-3">
                 {[
@@ -118,7 +118,7 @@ export default function ContactPage() {
                       : "text-muted-foreground hover:text-royal",
                   )}
                 >
-                  {t({ en: "Send a Message", fr: "Envoyer un Message" })}
+                  {t({ en: "Send a Message", fr: "Envoyer un message" })}
                 </button>
                 <button
                   type="button"
@@ -130,7 +130,7 @@ export default function ContactPage() {
                       : "text-muted-foreground hover:text-green",
                   )}
                 >
-                  {t({ en: "Prayer Request", fr: "Requete de Priere" })}
+                  {t({ en: "Prayer Request", fr: "Requête de prière" })}
                 </button>
               </div>
 

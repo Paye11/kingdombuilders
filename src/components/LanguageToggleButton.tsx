@@ -12,7 +12,7 @@ export function LanguageToggleButton() {
       onClick={toggleLanguage}
       aria-label={
         language === "en"
-          ? t({ en: "Switch to French", fr: "Passer en francais" })
+          ? t({ en: "Switch to French", fr: "Passer en français" })
           : t({ en: "Switch to English", fr: "Passer en anglais" })
       }
       initial={{ scale: 0, opacity: 0 }}

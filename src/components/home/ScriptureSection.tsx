@@ -17,10 +17,10 @@ export function ScriptureSection() {
       <div className="relative mx-auto max-w-7xl px-4 lg:px-8">
         <Reveal className="text-center">
           <span className="font-heading text-sm font-semibold uppercase tracking-widest text-gold">
-            {t({ en: "Rooted in Scripture", fr: "Ancre dans les Ecritures" })}
+            {t({ en: "Rooted in Scripture", fr: "Ancré dans les Écritures" })}
           </span>
           <h2 className="mt-3 text-balance font-heading text-3xl font-bold sm:text-4xl">
-            {t({ en: "God's Heart for Children", fr: "Le coeur de Dieu pour les enfants" })}
+            {t({ en: "God's Heart for Children", fr: "Le cœur de Dieu pour les enfants" })}
           </h2>
         </Reveal>
 

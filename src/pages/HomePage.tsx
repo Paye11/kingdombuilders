@@ -19,7 +19,7 @@ export default function Home() {
     }),
     description: t({
       en: "Kingdom Builders Kids rescues, protects, nurtures, educates, disciples, and empowers orphaned, disabled, abandoned, and vulnerable children through the love of Jesus Christ.",
-      fr: "Kingdom Builders Kids secourt, protege, nourrit, eduque, discipule et fortifie les enfants orphelins, handicapes, abandonnes et vulnerables par l'amour de Jesus-Christ.",
+      fr: "Kingdom Builders Kids secourt, protège, nourrit, éduque, disciplent et fortifie les enfants orphelins, handicapés, abandonnés et vulnérables par l'amour de Jésus-Christ.",
     }),
   })
 

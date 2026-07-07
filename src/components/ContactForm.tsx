@@ -46,13 +46,13 @@ export function ContactForm({ variant = "contact" }: { variant?: "contact" | "pr
       <input
         type="hidden"
         name="form_type"
-        value={isPrayer ? t({ en: "Prayer Request", fr: "Requete de Priere" }) : t({ en: "Contact Message", fr: "Message de Contact" })}
+        value={isPrayer ? t({ en: "Prayer Request", fr: "Requête de prière" }) : t({ en: "Contact Message", fr: "Message de contact" })}
       />
 
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
           <label htmlFor={`${variant}-name`} className="mb-2 block text-sm font-semibold text-foreground">
-            {t({ en: "Full Name", fr: "Nom Complet" })}
+            {t({ en: "Full Name", fr: "Nom complet" })}
           </label>
           <input
             id={`${variant}-name`}
@@ -65,7 +65,7 @@ export function ContactForm({ variant = "contact" }: { variant?: "contact" | "pr
         </div>
         <div>
           <label htmlFor={`${variant}-email`} className="mb-2 block text-sm font-semibold text-foreground">
-            {t({ en: "Email Address", fr: "Adresse Email" })}
+            {t({ en: "Email Address", fr: "Adresse e-mail" })}
           </label>
           <input
             id={`${variant}-email`}
@@ -87,7 +87,7 @@ export function ContactForm({ variant = "contact" }: { variant?: "contact" | "pr
             id="contact-subject"
             name="subject"
             type="text"
-            placeholder={t({ en: "How can we help?", fr: "Comment pouvons-nous aider?" })}
+            placeholder={t({ en: "How can we help?", fr: "Comment pouvons-nous vous aider ?" })}
             className={inputClass}
           />
         </div>
@@ -96,7 +96,7 @@ export function ContactForm({ variant = "contact" }: { variant?: "contact" | "pr
       <div>
         <label htmlFor={`${variant}-message`} className="mb-2 block text-sm font-semibold text-foreground">
           {isPrayer
-            ? t({ en: "Your Prayer Request", fr: "Votre Requete de Priere" })
+            ? t({ en: "Your Prayer Request", fr: "Votre requête de prière" })
             : t({ en: "Message", fr: "Message" })}
         </label>
         <textarea
@@ -107,7 +107,7 @@ export function ContactForm({ variant = "contact" }: { variant?: "contact" | "pr
           placeholder={
             isPrayer
               ? t({ en: "Share how we can pray for you...", fr: "Partagez comment nous pouvons prier pour vous..." })
-              : t({ en: "Write your message here...", fr: "Ecrivez votre message ici..." })
+              : t({ en: "Write your message here...", fr: "Écrivez votre message ici..." })
           }
           className={inputClass}
         />
@@ -120,7 +120,7 @@ export function ContactForm({ variant = "contact" }: { variant?: "contact" | "pr
               <Loader2 className="h-5 w-5 animate-spin" /> {t({ en: "Sending...", fr: "Envoi en cours..." })}
             </>
           ) : isPrayer ? (
-            t({ en: "Send Prayer Request", fr: "Envoyer la requete de priere" })
+            t({ en: "Send Prayer Request", fr: "Envoyer la requête de prière" })
           ) : (
             t({ en: "Send Message", fr: "Envoyer le message" })
           )}
@@ -128,15 +128,15 @@ export function ContactForm({ variant = "contact" }: { variant?: "contact" | "pr
 
         {status === "success" && (
           <span className="inline-flex items-center gap-2 text-sm font-medium text-green">
-            <CheckCircle2 className="h-5 w-5" /> {t({ en: "Thank you! Your message has been sent.", fr: "Merci! Votre message a ete envoye." })}
+            <CheckCircle2 className="h-5 w-5" /> {t({ en: "Thank you! Your message has been sent.", fr: "Merci ! Votre message a été envoyé." })}
           </span>
         )}
         {status === "error" && (
           <span className="inline-flex items-center gap-2 text-sm font-medium text-red-600">
             <AlertCircle className="h-5 w-5" />
             {isEmailConfigured
-              ? t({ en: "Something went wrong. Please try again.", fr: "Une erreur s'est produite. Veuillez reessayer." })
-              : t({ en: "Email is not configured yet. Add your EmailJS keys to enable sending.", fr: "L'email n'est pas encore configure. Ajoutez vos cles EmailJS pour activer l'envoi." })}
+              ? t({ en: "Something went wrong. Please try again.", fr: "Une erreur s'est produite. Veuillez réessayer." })
+              : t({ en: "Email is not configured yet. Add your EmailJS keys to enable sending.", fr: "L'e-mail n'est pas encore configuré. Ajoutez vos clés EmailJS pour activer l'envoi." })}
           </span>
         )}
       </div>

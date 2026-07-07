@@ -13,11 +13,11 @@ export function ProgramsPreview() {
     <section className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <SectionHeading
-          eyebrow={t({ en: "What We Do", fr: "Ce Que Nous Faisons" })}
-          title={t({ en: "Our Programs", fr: "Nos Programmes" })}
+          eyebrow={t({ en: "What We Do", fr: "Ce que nous faisons" })}
+          title={t({ en: "Our Programs", fr: "Nos programmes" })}
           subtitle={t({
             en: "Eight Christ-centered programs working together to rescue, nurture, and empower vulnerable children.",
-            fr: "Huit programmes centres sur Christ travaillent ensemble pour secourir, nourrir et fortifier les enfants vulnerables.",
+            fr: "Huit programmes centrés sur le Christ travaillent ensemble pour secourir, nourrir et fortifier les enfants vulnérables.",
           })}
         />
 
@@ -60,7 +60,7 @@ export function ProgramsPreview() {
 
         <div className="mt-12 text-center">
           <ButtonLink to="/programs/orphan-care" variant="primary" size="lg">
-            {t({ en: "Explore Our Programs", fr: "Explorer Nos Programmes" })} <ArrowRight className="h-5 w-5" />
+            {t({ en: "Explore Our Programs", fr: "Explorer nos programmes" })} <ArrowRight className="h-5 w-5" />
           </ButtonLink>
         </div>
       </div>

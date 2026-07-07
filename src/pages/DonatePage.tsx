@@ -22,7 +22,7 @@ const impact = [
     amount: "$25",
     desc: {
       en: "Provides nutritious meals for a child",
-      fr: "Fournit des repas nutritifs a un enfant",
+      fr: "Fournit des repas nutritifs à un enfant",
     },
   },
   {
@@ -30,7 +30,7 @@ const impact = [
     amount: "$50",
     desc: {
       en: "Covers basic healthcare and medicine",
-      fr: "Couvre les soins de sante de base et les medicaments",
+      fr: "Couvre les soins de santé de base et les médicaments",
     },
   },
   {
@@ -38,7 +38,7 @@ const impact = [
     amount: "$100",
     desc: {
       en: "Supports a child's education and supplies",
-      fr: "Soutient l'education et les fournitures d'un enfant",
+      fr: "Soutient l'éducation et les fournitures d'un enfant",
     },
   },
   {
@@ -46,7 +46,7 @@ const impact = [
     amount: "$250",
     desc: {
       en: "Helps provide safe shelter and care",
-      fr: "Aide a fournir un abri sur et des soins",
+      fr: "Aide à fournir un abri sûr et des soins",
     },
   },
 ]
@@ -58,7 +58,7 @@ export default function DonatePage() {
     title: t({ en: "Donate | Kingdom Builders Kids", fr: "Faire un don | Kingdom Builders Kids" }),
     description: t({
       en: "Your gift rescues, feeds, heals, and educates vulnerable children. Give today and help build children for God's Kingdom.",
-      fr: "Votre don secourt, nourrit, soigne et eduque les enfants vulnerables. Donnez aujourd'hui et aidez a former des enfants pour le Royaume de Dieu.",
+      fr: "Votre don secourt, nourrit, soigne et éduque les enfants vulnérables. Donnez aujourd'hui et aidez à former des enfants pour le Royaume de Dieu.",
     }),
   })
 
@@ -66,10 +66,10 @@ export default function DonatePage() {
     <>
       <PageHero
         crumb={t({ en: "Donate", fr: "Faire un don" })}
-        title={t({ en: "Your Gift Changes a Life", fr: "Votre Don Change une Vie" })}
+        title={t({ en: "Your Gift Changes a Life", fr: "Votre don change une vie" })}
         subtitle={t({
           en: "Every donation helps rescue, feed, heal, educate, and disciple a vulnerable child. Together we build children for God's Kingdom.",
-          fr: "Chaque don aide a secourir, nourrir, soigner, eduquer et discipuler un enfant vulnerable. Ensemble, nous formons des enfants pour le Royaume de Dieu.",
+          fr: "Chaque don aide à secourir, nourrir, soigner, éduquer et discipler un enfant vulnérable. Ensemble, nous formons des enfants pour le Royaume de Dieu.",
         })}
         image="/images/children-crowd.jpeg"
       />
@@ -79,10 +79,10 @@ export default function DonatePage() {
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <SectionHeading
             eyebrow={t({ en: "Your Impact", fr: "Votre Impact" })}
-            title={t({ en: "See What Your Gift Can Do", fr: "Voyez Ce Que Votre Don Peut Faire" })}
+            title={t({ en: "See What Your Gift Can Do", fr: "Voyez ce que votre don peut faire" })}
             subtitle={t({
               en: "Every amount, big or small, brings real hope to a child in need.",
-              fr: "Chaque montant, petit ou grand, apporte une veritable esperance a un enfant dans le besoin.",
+              fr: "Chaque montant, petit ou grand, apporte une véritable espérance à un enfant dans le besoin.",
             })}
           />
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -112,11 +112,11 @@ export default function DonatePage() {
       <section className="bg-cream py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <SectionHeading
-            eyebrow={t({ en: "How to Give", fr: "Comment Donner" })}
-            title={t({ en: "Ways to Donate", fr: "Moyens de Donner" })}
+            eyebrow={t({ en: "How to Give", fr: "Comment donner" })}
+            title={t({ en: "Ways to Donate", fr: "Moyens de donner" })}
             subtitle={t({
               en: "Choose the giving method most convenient for you. Thank you for your generosity.",
-              fr: "Choisissez la methode de don la plus pratique pour vous. Merci pour votre generosite.",
+              fr: "Choisissez la méthode de don la plus pratique pour vous. Merci pour votre générosité.",
             })}
           />
 
@@ -128,17 +128,17 @@ export default function DonatePage() {
                   <CreditCard className="h-7 w-7" />
                 </div>
                 <h3 className="mt-6 font-heading text-xl font-bold text-royal-dark">
-                  {t({ en: "Give Online", fr: "Donner en Ligne" })}
+                  {t({ en: "Give Online", fr: "Donner en ligne" })}
                 </h3>
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">
                   {t({
                     en: "Make a secure online donation quickly and easily through our online giving link.",
-                    fr: "Effectuez un don en ligne securise rapidement et facilement grace a notre lien de don en ligne.",
+                    fr: "Effectuez un don en ligne sécurisé rapidement et facilement grâce à notre lien de don en ligne.",
                   })}
                 </p>
                 <div className="mt-6">
                   <ButtonLink to={site.donate.paypal} external variant="primary" size="sm">
-                    {t({ en: "Donate Online", fr: "Donner en Ligne" })}
+                    {t({ en: "Donate Online", fr: "Donner en ligne" })}
                   </ButtonLink>
                 </div>
               </div>
@@ -155,19 +155,19 @@ export default function DonatePage() {
                 </h3>
                 <dl className="mt-3 flex-1 space-y-2 text-sm">
                   <div>
-                    <dt className="font-semibold text-foreground">{t({ en: "Provider", fr: "Operateur" })}</dt>
+                    <dt className="font-semibold text-foreground">{t({ en: "Provider", fr: "Opérateur" })}</dt>
                     <dd className="text-muted-foreground">
                       {site.donate.mobileMoney.provider}
                     </dd>
                   </div>
                   <div>
-                    <dt className="font-semibold text-foreground">{t({ en: "Account Name", fr: "Nom du Compte" })}</dt>
+                    <dt className="font-semibold text-foreground">{t({ en: "Account Name", fr: "Nom du compte" })}</dt>
                     <dd className="text-muted-foreground">
                       {site.donate.mobileMoney.name}
                     </dd>
                   </div>
                   <div>
-                    <dt className="font-semibold text-foreground">{t({ en: "Number", fr: "Numero" })}</dt>
+                    <dt className="font-semibold text-foreground">{t({ en: "Number", fr: "Numéro" })}</dt>
                     <dd className="text-muted-foreground">
                       {site.donate.mobileMoney.number}
                     </dd>
@@ -183,7 +183,7 @@ export default function DonatePage() {
                   <Landmark className="h-7 w-7" />
                 </div>
                 <h3 className="mt-6 font-heading text-xl font-bold text-royal-dark">
-                  {t({ en: "Bank Transfer", fr: "Virement Bancaire" })}
+                  {t({ en: "Bank Transfer", fr: "Virement bancaire" })}
                 </h3>
                 <dl className="mt-3 flex-1 space-y-2 text-sm">
                   <div>
@@ -191,13 +191,13 @@ export default function DonatePage() {
                     <dd className="text-muted-foreground">{site.donate.bank.bankName}</dd>
                   </div>
                   <div>
-                    <dt className="font-semibold text-foreground">{t({ en: "Account Name", fr: "Nom du Compte" })}</dt>
+                    <dt className="font-semibold text-foreground">{t({ en: "Account Name", fr: "Nom du compte" })}</dt>
                     <dd className="text-muted-foreground">
                       {site.donate.bank.accountName}
                     </dd>
                   </div>
                   <div>
-                    <dt className="font-semibold text-foreground">{t({ en: "Account Number", fr: "Numero de Compte" })}</dt>
+                    <dt className="font-semibold text-foreground">{t({ en: "Account Number", fr: "Numéro de compte" })}</dt>
                     <dd className="text-muted-foreground">
                       {site.donate.bank.accountNumber}
                     </dd>
@@ -220,7 +220,7 @@ export default function DonatePage() {
               <a href="/contact" className="font-semibold text-royal underline">
                 {t({ en: "contact us", fr: "nous contacter" })}
               </a>
-              . {t({ en: "Thank you for standing with vulnerable children.", fr: "Merci de vous tenir aux cotes des enfants vulnerables." })}
+              . {t({ en: "Thank you for standing with vulnerable children.", fr: "Merci de vous tenir aux côtés des enfants vulnérables." })}
             </p>
           </Reveal>
         </div>
@@ -234,7 +234,7 @@ export default function DonatePage() {
             &ldquo;
             {t({
               en: "Whoever is kind to the poor lends to the Lord.",
-              fr: "Celui qui a pitie du pauvre prete a l'Eternel.",
+              fr: "Celui qui a pitié du pauvre prête à l'Éternel.",
             })}
             &rdquo;
           </h2>

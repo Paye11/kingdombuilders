@@ -10,20 +10,20 @@ import { useLanguage } from "../context/LanguageContext"
 
 const images = [
   { src: "/images/children-joy.jpeg", alt: { en: "Children smiling together with their pastor", fr: "Des enfants souriant avec leur pasteur" } },
-  { src: "/images/children-crowd.jpeg", alt: { en: "Children and families gathered at an evening service", fr: "Des enfants et des familles reunis lors d'un culte du soir" } },
+  { src: "/images/children-crowd.jpeg", alt: { en: "Children and families gathered at an evening service", fr: "Des enfants et des familles réunis lors d'un culte du soir" } },
   { src: "/images/evening-service.jpeg", alt: { en: "An evening worship service with the children", fr: "Un culte du soir avec les enfants" } },
   { src: "/images/evening-service-2.jpeg", alt: { en: "Children standing together during worship", fr: "Des enfants debout ensemble pendant la louange" } },
   { src: "/images/evening-service-3.jpeg", alt: { en: "Ministers leading the children in worship", fr: "Des serviteurs conduisant les enfants dans la louange" } },
-  { src: "/images/outreach-preaching.jpeg", alt: { en: "Sharing the gospel during a community outreach", fr: "Annonce de l'evangile lors d'une action communautaire" } },
-  { src: "/images/baptism-boy.jpeg", alt: { en: "A young boy being baptized in the river", fr: "Un jeune garcon baptise dans la riviere" } },
-  { src: "/images/baptism-girl.jpeg", alt: { en: "A girl joyfully baptized in water", fr: "Une fille joyeusement baptisee dans l'eau" } },
-  { src: "/images/children-celebration.jpeg", alt: { en: "Children celebrating together at a church gathering", fr: "Des enfants qui celebrent ensemble lors d'un rassemblement" } },
-  { src: "/images/children-celebration-2.jpeg", alt: { en: "Joyful children at a church celebration", fr: "Des enfants joyeux lors d'une celebration a l'eglise" } },
+  { src: "/images/outreach-preaching.jpeg", alt: { en: "Sharing the gospel during a community outreach", fr: "Annonce de l'Évangile lors d'une action communautaire" } },
+  { src: "/images/baptism-boy.jpeg", alt: { en: "A young boy being baptized in the river", fr: "Un jeune garçon baptisé dans la rivière" } },
+  { src: "/images/baptism-girl.jpeg", alt: { en: "A girl joyfully baptized in water", fr: "Une fille joyeusement baptisée dans l'eau" } },
+  { src: "/images/children-celebration.jpeg", alt: { en: "Children celebrating together at a church gathering", fr: "Des enfants qui célèbrent ensemble lors d'un rassemblement" } },
+  { src: "/images/children-celebration-2.jpeg", alt: { en: "Joyful children at a church celebration", fr: "Des enfants joyeux lors d'une célébration à l'église" } },
   { src: "/images/children-group.jpeg", alt: { en: "A large group of children together", fr: "Un grand groupe d'enfants ensemble" } },
-  { src: "/images/congregation.jpeg", alt: { en: "The community gathered outside the church", fr: "La communaute rassemblee devant l'eglise" } },
-  { src: "/images/church-gathering.jpeg", alt: { en: "The church family gathered together", fr: "La famille de l'eglise reunie" } },
-  { src: "/images/community-home.jpeg", alt: { en: "Children and caregivers by their home", fr: "Des enfants et leurs tuteurs pres de leur maison" } },
-  { src: "/images/family-visit.jpeg", alt: { en: "A family welcomed and supported by the ministry", fr: "Une famille accueillie et soutenue par le ministere" } },
+  { src: "/images/congregation.jpeg", alt: { en: "The community gathered outside the church", fr: "La communauté rassemblée devant l'église" } },
+  { src: "/images/church-gathering.jpeg", alt: { en: "The church family gathered together", fr: "La famille de l'église réunie" } },
+  { src: "/images/community-home.jpeg", alt: { en: "Children and caregivers by their home", fr: "Des enfants et leurs tuteurs près de leur maison" } },
+  { src: "/images/family-visit.jpeg", alt: { en: "A family welcomed and supported by the ministry", fr: "Une famille accueillie et soutenue par le ministère" } },
 ]
 
 export default function GalleryPage() {
@@ -33,7 +33,7 @@ export default function GalleryPage() {
     title: t({ en: "Gallery | Kingdom Builders Kids", fr: "Galerie | Kingdom Builders Kids" }),
     description: t({
       en: "See the joy, hope, and transformation in action through photos of the children and communities served by Kingdom Builders Kids.",
-      fr: "Decouvrez la joie, l'esperance et la transformation a travers des photos des enfants et des communautes accompagnes par Kingdom Builders Kids.",
+      fr: "Découvrez la joie, l'espérance et la transformation à travers des photos des enfants et des communautés accompagnés par Kingdom Builders Kids.",
     }),
   })
 
@@ -43,10 +43,10 @@ export default function GalleryPage() {
     <>
       <PageHero
         crumb={t({ en: "Gallery", fr: "Galerie" })}
-        title={t({ en: "Moments of Joy & Hope", fr: "Moments de Joie et d'Esperance" })}
+        title={t({ en: "Moments of Joy & Hope", fr: "Moments de joie et d'espérance" })}
         subtitle={t({
           en: "A glimpse into the lives being transformed and the joy that fills our ministry every day.",
-          fr: "Un apercu des vies en cours de transformation et de la joie qui remplit notre ministere chaque jour.",
+          fr: "Un aperçu des vies en cours de transformation et de la joie qui remplit notre ministère chaque jour.",
         })}
         image="/images/children-celebration.jpeg"
       />
@@ -54,8 +54,8 @@ export default function GalleryPage() {
       <section className="bg-background py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <SectionHeading
-            eyebrow={t({ en: "Our Gallery", fr: "Notre Galerie" })}
-            title={t({ en: "Hope in Action", fr: "L'Esperance en Action" })}
+            eyebrow={t({ en: "Our Gallery", fr: "Notre galerie" })}
+            title={t({ en: "Hope in Action", fr: "L'espérance en action" })}
             subtitle={t({ en: "Click any photo to view it larger.", fr: "Cliquez sur une photo pour l'agrandir." })}
           />
 

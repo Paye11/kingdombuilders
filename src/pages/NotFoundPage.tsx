@@ -18,12 +18,12 @@ export default function NotFoundPage() {
         <p className="mx-auto mt-3 max-w-md text-pretty leading-relaxed text-muted-foreground">
           {t({
             en: "The page you're looking for doesn't exist or may have been moved. Let's get you back home.",
-            fr: "La page que vous recherchez n'existe pas ou a peut-etre ete deplacee. Revenons a l'accueil.",
+            fr: "La page que vous recherchez n'existe pas ou a peut-être été déplacée. Revenons à l'accueil.",
           })}
         </p>
         <div className="mt-8">
           <ButtonLink to="/" variant="primary" size="lg">
-            <Home className="h-5 w-5" /> {t({ en: "Back to Home", fr: "Retour a l'Accueil" })}
+            <Home className="h-5 w-5" /> {t({ en: "Back to Home", fr: "Retour à l'accueil" })}
           </ButtonLink>
         </div>
       </div>

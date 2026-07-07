@@ -13,15 +13,15 @@ export function Footer() {
   const { t } = useLanguage()
 
   const quickLinks = [
-    { to: "/about", label: { en: "About Us", fr: "A Propos" } },
-    { to: "/our-team", label: { en: "Our Team", fr: "Notre Equipe" } },
+    { to: "/about", label: { en: "About Us", fr: "À propos" } },
+    { to: "/our-team", label: { en: "Our Team", fr: "Notre équipe" } },
     { to: "/programs/orphan-care", label: { en: "Programs", fr: "Programmes" } },
-    { to: "/success-stories", label: { en: "Success Stories", fr: "Temoignages de Reussite" } },
+    { to: "/success-stories", label: { en: "Success Stories", fr: "Témoignages de réussite" } },
     { to: "/gallery", label: { en: "Gallery", fr: "Galerie" } },
   ]
 
   const involveLinks = [
-    { to: "/get-involved", label: { en: "Volunteer", fr: "Faire du benevolat" } },
+    { to: "/get-involved", label: { en: "Volunteer", fr: "Faire du bénévolat" } },
     { to: "/get-involved", label: { en: "Sponsor a Child", fr: "Parrainer un enfant" } },
     { to: "/donate", label: { en: "Donate", fr: "Faire un don" } },
     { to: "/contact", label: { en: "Contact", fr: "Contact" } },
@@ -57,7 +57,7 @@ export function Footer() {
             <p className="mt-4 text-sm leading-relaxed text-white/70">
               {t({
                 en: "A Christ-centered ministry rescuing, nurturing, educating, and empowering orphaned, abandoned, disabled, and vulnerable children.",
-                fr: "Un ministere centre sur Christ qui secourt, nourrit, eduque et fortifie les enfants orphelins, abandonnes, handicapes et vulnerables.",
+                fr: "Un ministère centré sur le Christ qui secourt, nourrit, éduque et fortifie les enfants orphelins, abandonnés, handicapés et vulnérables.",
               })}
             </p>
             <div className="mt-6 flex gap-3">
@@ -117,7 +117,7 @@ export function Footer() {
           {/* Contact + newsletter */}
           <div>
             <h3 className="font-heading text-base font-semibold text-gold">
-              {t({ en: "Stay Connected", fr: "Restez Connectes" })}
+              {t({ en: "Stay Connected", fr: "Restez connectés" })}
             </h3>
             <ul className="mt-5 space-y-3 text-sm text-white/70">
               <li className="flex items-start gap-3">
@@ -170,7 +170,7 @@ export function Footer() {
             &ldquo;
             {t({
               en: "Let the little children come to me and do not hinder them, for the kingdom of heaven belongs to such as these.",
-              fr: "Laissez venir a moi les petits enfants, et ne les en empechez pas; car le royaume des cieux est pour ceux qui leur ressemblent.",
+              fr: "Laissez venir à moi les petits enfants, et ne les en empêchez pas ; car le royaume des cieux est pour ceux qui leur ressemblent.",
             })}
             &rdquo;
             <span className="mt-2 block text-sm not-italic text-gold">
@@ -182,7 +182,7 @@ export function Footer() {
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-sm text-white/60 sm:flex-row">
           <p>
             &copy; {new Date().getFullYear()} Kingdom Builders Kids.{" "}
-            {t({ en: "All rights reserved.", fr: "Tous droits reserves." })}
+            {t({ en: "All rights reserved.", fr: "Tous droits réservés." })}
           </p>
           <p>{t(site.motto)}</p>
         </div>

@@ -13,11 +13,11 @@ export function StoriesPreview() {
     <section className="bg-cream py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <SectionHeading
-          eyebrow={t({ en: "Lives Transformed", fr: "Vies Transformees" })}
-          title={t({ en: "Stories of Hope", fr: "Histoires d'Esperance" })}
+          eyebrow={t({ en: "Lives Transformed", fr: "Vies transformées" })}
+          title={t({ en: "Stories of Hope", fr: "Histoires d'espérance" })}
           subtitle={t({
             en: "Behind every program is a child whose life has been changed forever.",
-            fr: "Derriere chaque programme se trouve un enfant dont la vie a change pour toujours.",
+            fr: "Derrière chaque programme se trouve un enfant dont la vie a changé pour toujours.",
           })}
         />
 
@@ -55,7 +55,7 @@ export function StoriesPreview() {
 
         <div className="mt-12 text-center">
           <ButtonLink to="/success-stories" variant="green" size="lg">
-            {t({ en: "Read More Stories", fr: "Lire Plus d'Histoires" })} <ArrowRight className="h-5 w-5" />
+            {t({ en: "Read More Stories", fr: "Lire plus d'histoires" })} <ArrowRight className="h-5 w-5" />
           </ButtonLink>
         </div>
       </div>
