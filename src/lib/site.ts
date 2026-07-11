@@ -5,6 +5,8 @@ import type { LocalizedText } from "./i18n"
  * Replace the placeholder values below with the ministry's real information.
  */
 export const site = {
+  /** Public site URL used for sitemap, Open Graph, and canonical links. */
+  url: "https://kingdombuilderskids.org",
   name: "Kingdom Builders Kids",
   motto: {
     en: "Building Children for God's Kingdom",
