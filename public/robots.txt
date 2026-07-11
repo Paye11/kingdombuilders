@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kingdombuilderskids.org/sitemap.xml
+Sitemap: https://kingdombuilderskids.com/sitemap.xml
