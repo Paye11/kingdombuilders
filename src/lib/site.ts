@@ -6,7 +6,7 @@ import type { LocalizedText } from "./i18n"
  */
 export const site = {
   /** Public site URL used for sitemap, Open Graph, and canonical links. */
-  url: "https://kingdombuilderskids.com",
+  url: "https://kindgombuilderskidsmission.com",
   name: "Kingdom Builders Kids",
   motto: {
     en: "Building Children for God's Kingdom",
